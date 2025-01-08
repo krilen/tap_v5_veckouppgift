@@ -33,7 +33,7 @@ try:
             (cost_of_jacket * discount_calc),
             cost_of_jacket,
             (cost_of_jacket * discount_calc),
-            (cost_of_jacket * (1 -discount/100))
+            cost_of_jacket * (1 -discount/100)
     ))
 except:
     print(f"Sorry something went wrong, you will have to pay 1999 kr.")

@@ -60,7 +60,7 @@ Skriv ett program som talar om dagens datum.
 
 date_format = "%Y%b%d"
 
-days_ahead = 10
+days_ahead = 7
 
 date_today = datetime.datetime.today()
 date_next_week = (datetime.datetime.strptime(date_today.strftime(date_format), date_format) + datetime.timedelta(days=days_ahead))

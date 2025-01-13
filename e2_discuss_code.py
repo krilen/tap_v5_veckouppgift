@@ -27,6 +27,6 @@ money_on_hand = 200  # pengar på fickan
 print(f"Det blir {money_on_hand - ticket_price } kronor över.")
 
 # z -> number
-number = 200 - 100 / 2
+number = (200 - 100) / 2
 print("Hälften är: ", number)
 
